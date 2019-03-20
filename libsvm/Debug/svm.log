@@ -1,0 +1,22 @@
+﻿Build started 2013/10/2 9:17:46.
+     1>Project "C:\Users\zhang\Desktop\libsvm-3.17\matlab\svm.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\svm.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /D _UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt libsvmread.c libsvmwrite.c svmpredict.c svmtrain.c svm_model_matlab.c
+         svm_model_matlab.c
+     1>svm_model_matlab.c(5): fatal error C1083: Cannot open include file: 'mex.h': No such file or directory
+         svmtrain.c
+     1>svmtrain.c(7): fatal error C1083: Cannot open include file: 'mex.h': No such file or directory
+         svmpredict.c
+     1>svmpredict.c(6): fatal error C1083: Cannot open include file: 'mex.h': No such file or directory
+         libsvmwrite.c
+     1>libsvmwrite.c(4): fatal error C1083: Cannot open include file: 'mex.h': No such file or directory
+         libsvmread.c
+     1>libsvmread.c(7): fatal error C1083: Cannot open include file: 'mex.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\zhang\Desktop\libsvm-3.17\matlab\svm.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.46
